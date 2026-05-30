@@ -21,7 +21,7 @@ Projekts sastāv no četrām galvenajām daļām:
 
 ## Projekta struktūra
 
-
+```text
 api-demo/
 ├── gateway/
 ├── orchestration/
