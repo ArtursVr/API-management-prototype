@@ -19,7 +19,7 @@ function writeLog(message) {
     fs.appendFileSync(logFile, logEntry);
 }
 
-// REQUEST LOGGING MIDDLEWARE
+// LOGGING MIDDLEWARE
 app.use((req, res, next) => {
     const start = Date.now();
 
